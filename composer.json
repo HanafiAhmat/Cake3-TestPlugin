@@ -1,0 +1,37 @@
+{
+	"name": "HanafiAhmat/Cake3-TestPlugin",
+	"type": "cakephp-plugin",
+	"description": "A skeleton example to create a Cake3 plugin.",
+	"keywords": ["cakephp", "cake3", "plugin", "skeleton", "travis", "scrutinizer", "coveralls"],
+	"homepage": "https://github.com/HanafiAhmat/Cake3-TestPlugin",
+	"license": "MIT",
+	"support":{
+		"source":"https://github.com/HanafiAhmat/Cake3-TestPlugin",
+		"issues":"https://github.com/HanafiAhmat/Cake3-TestPlugin/issues"
+	},
+	"authors": [
+		{
+			"name": "hanafi Ahmat",
+			"email": "ahmat.hanafi@gmail.com",
+			"homepage": "https://github.com/HanafiAhmat"
+		}
+	],
+	"require": {
+		"php": ">=5.4.16",
+		"cakephp/cakephp": "3.0.6",
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.1.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"HanafiAhmat\\Cake3-TestPlugin\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"HanafiAhmat\\Cake3-TestPlugin\\Test\\": "tests"
+		}
+	}
+
+}
